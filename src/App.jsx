@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { motion } from "framer-motion";
 
-const API_URL = "http://127.0.0.1:8000"; // Change if deploying to a VPS
+const API_URL = "http://cm6smtydu000zqr9qbxcalm0p:8000"; // Change if deploying to a VPS
 
 export default function App() {
     const [username, setUsername] = useState("");
